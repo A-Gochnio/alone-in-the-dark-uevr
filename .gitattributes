@@ -1,0 +1,8 @@
+release/*.bat text eol=crlf
+
+# Private dev notes stay out of the public export (git archive, tools/Export-AitDPublic.ps1)
+AGENTS.md export-ignore
+CONTEXT.md export-ignore
+HANDOFF.md export-ignore
+local/ export-ignore
+.claude/ export-ignore

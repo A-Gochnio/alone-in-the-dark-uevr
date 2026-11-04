@@ -1,0 +1,21 @@
+# Local workstation metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local captures, game data, backups and credentials
+/local/
+/backups/
+.env
+.env.*
+!.env.example
+*.log
+*.dmp
+
+# Machine-local Claude Code permissions
+.claude/settings.local.json
+
+# Generated builds
+/build/
+/dist/
+*.pdb
